@@ -13,7 +13,7 @@ import java.awt.GridBagConstraints;
 import java.awt.Insets;
 import javax.swing.JTextField;
 
-public class CrearContacto extends JDialog {
+public class IUCrearContacto extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
 	private final JPanel panel = new JPanel();
@@ -29,7 +29,7 @@ public class CrearContacto extends JDialog {
 	 */
 	public static void main(String[] args) {
 		try {
-			CrearContacto dialog = new CrearContacto();
+			IUCrearContacto dialog = new IUCrearContacto();
 			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 			dialog.setVisible(true);
 		} catch (Exception e) {
@@ -40,7 +40,7 @@ public class CrearContacto extends JDialog {
 	/**
 	 * Create the dialog.
 	 */
-	public CrearContacto() {
+	public IUCrearContacto() {
 		setTitle("Crear");
 		setBounds(100, 100, 224, 175);
 		getContentPane().setLayout(new BorderLayout());
